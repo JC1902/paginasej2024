@@ -1,0 +1,9 @@
+<!--plantillas/base.html-->
+<header>
+    <a href="{% url 'inicio' %}">Inicio</a>  |
+    <a href="{% url 'nosotros' %}">Nosotros</a>
+</header>
+
+{% block contenido %}
+Aqui aparecera el contenido, no importa que haya AQUI
+{% endblock contenido %}
